@@ -31,7 +31,6 @@ public class Main {
         employeeWithSalaryLess(15_000.0);
     }
 
-
     public static void countMinSalary() {
         if (employee.length > 0) {
             double minSalary = employee[0].getSalary();
@@ -48,7 +47,6 @@ public class Main {
             System.out.println("Массив пуст");
         }
     }
-
 
     public static void countDepartmentMinSalary(int departmentNumber) {
 
@@ -78,7 +76,6 @@ public class Main {
             System.out.println("Сотрудник отдела " + departmentNumber + " с максимальной зарплатой: " + maxSalary + " " + " руб " + "-" + " " + staffMan);
         }
     }
-
 
     public static void countMaxSalary() {
         double maxSalary = employee[0].getSalary();
